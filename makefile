@@ -7,7 +7,7 @@ help:
 	$(info make large  - create large file for test)
 	$(info make test   - run test and output results to test.out)
 	$(info make clean  - delete all created files)
-	$(info make web    - run simple web service)
+	$(info make web    - run simple web service at localhost:8080)
 	@true
 
 CC = gcc
